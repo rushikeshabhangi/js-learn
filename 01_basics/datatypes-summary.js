@@ -24,3 +24,16 @@ console.log(typeof bigIntType)
 
 // Non Primitive Data Types
     // 3 Types: Array, Objects, Functions
+
+const arrayType = ["First Name", "Middle Name", "Last Name"];
+const objectsType = {
+    name: "Rushikesh",
+    age: 30,
+    city: "Rajkot",
+}
+
+const functionType = function(){
+    console.log("Hello")
+}
+
+console.log(functionType)
