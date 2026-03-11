@@ -37,3 +37,9 @@ const functionType = function(){
 }
 
 console.log(functionType)
+
+
+
+// ======================= Memory ======================= // 
+
+// stack (Primitive), Heap (Non-Primitive)
