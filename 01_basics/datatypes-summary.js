@@ -43,3 +43,23 @@ console.log(functionType)
 // ======================= Memory ======================= // 
 
 // stack (Primitive), Heap (Non-Primitive)
+
+let myName = "RushiPatel"
+let myanotherName = myName
+myanotherName = "RaviPatel"
+console.log(myName);
+console.log(myanotherName);
+
+let userOne = {
+    Name: "Google",
+    Age: 30,
+    City: "USA",
+    Email: "google@google.com"
+}
+let userTwo = userOne
+console.log(userTwo);
+
+userTwo.Email = "gmail@google.com"
+console.log(userOne);
+console.log(userTwo);
+
