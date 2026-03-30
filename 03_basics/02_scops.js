@@ -18,10 +18,10 @@ function one(){
 
     function two(){
         const web = "youtube"
-        //console.log(other);
+        //console.log(other); // Rushi
     }
 
-    //console.log(web);
+    // console.log(web); // can't access 
 
     two()
 }
@@ -31,14 +31,27 @@ if (true){
     const user = "Rushikesh"
     if (user === "Rushikesh"){
         const web = " Google"
-        //console.log(user + web);
+        //console.log(user + web); // Rushikesh Google
     }
-    //console.log(web);
+    //console.log(web); // can't access 
     
 }
 
-//console.log(user);
+//console.log(user); // can't access 
 
 
-// ================ Intresting ==================== //
+// ==================== Intresting ==================== //
+
+console.log(addOne(5)); // 6
+function addOne(num){
+    return num + 1
+}
+
+
+//console.log(myNum(5)); // Cannot access 'myNum' before initialization
+const myNum = function(num){
+    return num + 2
+}
+
+ 
 
