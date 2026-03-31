@@ -39,10 +39,13 @@ const arrowFnuction = (num1, num2) =>{
 }
 console.log(arrowFnuction(5, 8));
 
-const arrowFnuctionb = (num1, num2) => num1 + num2
-console.log(arrowFnuctionc(5, 8));
+const arrowFnuctionA = (num1, num2) => num1 + num2
+console.log(arrowFnuctionA(5, 8));
 
-const arrowFnuctionb = (num1, num2) => ( num1 + num2 )
-console.log(arrowFnuctionb(5, 8));
+const arrowFnuctionB = (num1, num2) => ( num1 + num2 )
+console.log(arrowFnuctionB(5, 8));
+
+const arrowFnuctionC = (num1, num2) => ({username: "Rushikesh"})
+console.log(arrowFnuctionC(5, 5));
 
 
